@@ -187,7 +187,7 @@ label {
 input#absender,
 textarea {
   width: 300px;
-  border: 1px solid black;
+  border: 1px solid #fff;
   margin-bottom: 10px;
   background-color: #c2c2c2;
 }
