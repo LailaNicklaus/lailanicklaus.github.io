@@ -1,0 +1,170 @@
+body {
+  font-family: helvetica; sans-serif;
+  font-size: 24px;
+  text-align: center;
+  background-image: url('../images/bg.jpg');
+  background-repeat:no-repeat;
+  background-position:center;
+}
+
+img {
+  width: 100%;
+}
+
+#wrapper {
+  width: 900px;
+  height: 820px;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+  background-color: white;
+}
+
+h1 {
+font-family: 'Ubuntu', sans-serif;
+font-size: 90px;
+padding-bottom: 0;
+margin-bottom: 0;
+  }
+
+.trenner{
+  width: 600px;
+  border-top: 4px solid grey;
+  border-left: none;
+  border-right: none;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+.text-center {
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: lighter;
+  background-color: white;
+}
+
+.main-nav {
+  width: 600px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  padding: 0;
+}
+
+.main-nav li {
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.main-nav li a {
+  color: black;
+  text-decoration: none;
+}
+
+.main-nav li a:hover {
+  color: grey;
+}
+
+.profile {
+  width: 400px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.nav {
+  width: 600px;
+  letter-spacing: 1px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  padding: 0;
+}
+
+.nav li {
+  display: inline-block;
+  margin-left: 5px;
+  margin-right: 5px;
+  font-weight: lighter;
+  font-size: 20px;
+}
+
+.nav li a {
+  color: black;
+  text-decoration: none;
+}
+
+.nav li a:hover {
+  color: grey;
+}
+
+.nav-center {
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+h2 {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 70px;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  margin-top: 35px;
+}
+
+.lebenslauf {
+  width: 450px;
+  text-align: left;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+}
+
+@media all and (min-width: 35em) {
+	button {
+		padding: 0.1em;
+		width: 10em;
+		height: 7.5em;
+		position: relative;
+	}
+
+	button img {
+		border: 0;
+		position: absolute;
+		left: 0%;
+		top: 0%;
+		z-index: 1;
+		box-shadow: 0;
+		width: 10em;
+		transition: all 1s;
+	}
+
+	button:focus img,
+	button:hover img {
+    border: 2em solid #eee;
+		border-radius: 1em;
+		box-shadow: 1px 1px 5px #333;
+		width: 600%;
+		position: absolute;
+		left: -4%;
+		top: -4%;
+		z-index: 5;
+
+		transition: all 1s;
+	}
+}
+
+#galerie li {
+	list-style-type: none;
+}
